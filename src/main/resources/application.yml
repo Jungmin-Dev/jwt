@@ -17,7 +17,7 @@ spring:
     username:
     password:
 
-  # JPA Setting9604
+  # JPA Setting
   jpa:
     hibernate:
       ddl-auto: none
