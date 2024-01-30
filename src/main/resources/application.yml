@@ -1,0 +1,29 @@
+server:
+  port: 8081
+spring:
+
+  # Redis
+  cache:
+    type: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  # DataSource Setting
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jwt?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username:
+    password:
+
+  # JPA Setting9604
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+# JWT
+jwt:
+  secretKey: testsecrettestsecrettestsecrettestsecrettestsecrettestsecretKey1
