@@ -36,6 +36,4 @@ jwt:
 
 keys * 명령어로 캐시 데이터 확인 가능
 
-![image](https://github.com/Jungmin-Dev/jwt/assets/74536458/d7705927-2517-4f9a-a70e-e9c8e090b160)
-
 
